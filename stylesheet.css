@@ -1,0 +1,94 @@
+body{
+    background-color: #f1dabb;
+    font-family: 'Times New Roman';
+}
+
+.headerFooter{
+    background-color: gray;
+    color: aliceblue;
+    border: solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Helvetica;
+    margin: 10px;
+    padding: 10px;
+    height: fit-content;
+}
+
+.formText{
+    color: white;
+}
+
+.navbar{
+    border: solid black;
+    border-radius: 10px;
+    background-color: gray;
+    height: fit-content;
+    justify-content: left;
+    margin: 10px;
+    display: flex;
+}
+
+nav ul li{
+    display: inline;
+    position: relative;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    padding:10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    background:lightgray;
+    color: black;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+h3{
+    margin:  10px 0px;
+}
+
+input[type="text"]:focus{
+    width: 89%;
+}
+
+select{
+    width: 70px;
+}
+
+.formDiv{
+    background-color: grey;
+    border: solid black;
+    border-width: 2px;
+    border-radius: 12px;
+    margin: 10px;
+    padding: 10px;
+    height: fit-content;
+    width: 75%;
+}
+
+.ruleDiv{
+    background-color: pink;
+    border: solid black;
+    border-width: 2px;
+    border-radius: 12px;
+    margin: 10px;
+    padding: 10px;
+    height: fit-content;
+    width: 25%;
+}
+
+.ruleDiv:hover{
+    background-color: purple;
+    color: aliceblue
+}
+
+.bodyContainer{
+    display: flex;
+}
